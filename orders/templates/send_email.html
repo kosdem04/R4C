@@ -1,0 +1,8 @@
+{% comment %} При помощи action указываем url-адрес, который будет обрабатывать данные с формы {% endcomment %}
+<form method="POST" action="send_email/">
+    {% csrf_token %}
+    {{ form.dropdown_model }}
+    {{ form.versions }}
+    {{form.email}}
+    <input type="submit" value="Отправить письмо">
+  </form>

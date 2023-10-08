@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # Прописываем url-адреса для приложений
     path('robots/', include('robots.urls')),
+    path('orders/', include('orders.urls')),
 ]
