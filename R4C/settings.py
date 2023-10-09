@@ -128,5 +128,5 @@ EMAIL_HOST = 'smtp.gmail.com'  # SMTP-сервер провайдера элек
 EMAIL_PORT = 587  # Порт SMTP-сервера
 EMAIL_USE_TLS = True  # Использовать ли шифрование TLS
 EMAIL_HOST_USER = 'dementiev.kos04@gmail.com'  # Ваш адрес электронной почты
-EMAIL_HOST_PASSWORD = 'zpbc ccpj ofzi jusk'  # Пароль от электронной почты
+EMAIL_HOST_PASSWORD = ''  # Пароль от электронной почты
 DEFAULT_FROM_EMAIL = 'dementiev.kos04@gmail.com'  # Адрес отправителя по умолчанию
